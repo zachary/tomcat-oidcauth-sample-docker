@@ -1,0 +1,6 @@
+<tomcat-users>
+  <role rolename="manager-gui" />
+  <role rolename="admin-gui" />
+  <user username="admin" password="mypassword" roles="manager-gui,admin-gui" />
+  <user username="zachary.zheng@spatialfront.com" password="" roles="user" />
+</tomcat-users>

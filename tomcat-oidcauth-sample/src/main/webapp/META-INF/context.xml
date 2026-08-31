@@ -1,0 +1,15 @@
+<Context>
+	<Valve className="org.bsworks.catalina.authenticator.oidc.tomcat90.OpenIDConnectAuthenticator"
+	       noForm="true"
+	       hostBaseURI="http://localhost:8080"
+	       callbackPath="/callback"
+	       providers="[
+	           {
+	               name: Okta,
+	               issuer: https://integrator-7683855.okta.com,
+	               clientId: xxxxxxxxxxxxxxxxxxxx,
+	               clientSecret: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+	           }
+	       ]"
+	       usernameClaim="email" additionalScopes="email" />
+</Context>

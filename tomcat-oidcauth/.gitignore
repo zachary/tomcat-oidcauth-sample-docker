@@ -1,0 +1,11 @@
+# Gradle project-specific cache directory
+/.gradle/
+
+# Gradle build output directory
+/build/
+
+# IDE project files and directories
+/.vscode/
+/.classpath
+/.project
+/.settings/
